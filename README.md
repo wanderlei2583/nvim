@@ -28,6 +28,30 @@ Esta configuração do Neovim foi desenvolvida para otimizar o fluxo de trabalho
 Clone o repositório para o diretório de configuração do Neovim:
 
 ```sh
-git clone https://github.com/seu-usuario/seu-repositorio.git ~/.config/nvim
+git clone https://github.com/wanderlei2583/nivm.git ~/.config/nvim
 ```
+
+## Estrutura do Repositório
+
+```plaintex
+~/.config/nvim
+├── init.lua
+├── lua
+│   ├── plugins.lua
+│   ├── settings.lua
+│   ├── keybindings.lua
+│   └── <outros arquivos de configuração>
+└── README.md
+```
+
+## Plugins Utilizados
+
+Aqui estão os plugins que estou utilizando, organizados em um sumário:
+1. Gerenciador de Plugins
+- [packer.nvim](https://github.com/wbthomason/packer.nvim)
+2. Aprimoramento de Ediçã1.
+ - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+ - [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+3. Interface do Usuário
+
 
