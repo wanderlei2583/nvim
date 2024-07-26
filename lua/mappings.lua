@@ -15,3 +15,5 @@ map("n", "<leader>dpr", function()
 end, { silent = true })
 
 map("n", "<leader>ft", "<cmd>TodoTelescope<cr>", { desc = "Find todos" })
+
+map("n", "<leader>gp", ":Gitsigns preview_hunk<cr>", {})
